@@ -1,12 +1,17 @@
-const React = require('react');
-const ReactDOM = require('react-dom');
+//const React = require('react');
+//const ReactDOM = require('react-dom');
+import React from 'react';
 
-const RegistrationForm = require('./components/RegistrationForm');
-const Webpage = require('./components/Webpage');
+import ReactDOM from 'react-dom';
+import RegistrationForm from './components/RegistrationForm';
+import Webpage from './components/Webpage';
+import FillerText from './components/FillerText';
+//const RegistrationForm = require('./components/RegistrationForm');
+//const Webpage = require('./components/Webpage');
 
 ReactDOM.render(
   (
-    <div>
+    <div className="whatEvr">
       <RegistrationForm />
       <Webpage />
     </div>
