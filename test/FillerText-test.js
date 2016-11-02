@@ -1,7 +1,13 @@
-const React = require('react');
+import React from 'react';
 const { shallow } = require('enzyme');
-
-const FillerText = require('../components/FillerText');
+import ReactDOM from 'react-dom';
+import RegistrationForm from '../components/RegistrationForm';
+import Webpage from '../components/Webpage';
+import FillerText from '../components/FillerText';
+// const React = require('react');
+// const { shallow } = require('enzyme');
+//
+// const FillerText = require('../components/FillerText');
 
 describe('<FillerText />', function () {
   const wrapper = shallow(<FillerText />);
