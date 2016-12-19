@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this lab, you'll define component with JSX and compile Javascript. 
+In this lab, you'll define component with JSX and compile Javascript.
 
 ## Setup
 
@@ -15,7 +15,7 @@ tests won't be able to access your code!
     1. One `<form>` element
     2. Two `<input>` elements — one has a `text` type, the other one is a `password`
     3. One `<button>` element with the `submit` type
-    
+
 ## Webpage
 1. In the `components/FillerText.js` file, create an ES2015 React component called `FillerText`.
 2. This component should be a paragraph containing the following text: `I am a filler text. I can be used to fill your
