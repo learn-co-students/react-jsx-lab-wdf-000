@@ -1,3 +1,5 @@
+const React = require('react');
+
 class FillerText extends React.Component {
   render() {
     return (
@@ -5,3 +7,5 @@ class FillerText extends React.Component {
     )
   }
 }
+
+module.exports = FillerText;
